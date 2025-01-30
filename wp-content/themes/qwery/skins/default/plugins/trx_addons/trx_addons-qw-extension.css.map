@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;uFACuF;AAOvF,uEAAuE;AAOnE;;;;;mEAA8C;EAC1C,OAAO,EAAE,IAAI;;;AAIrB,iEAAiE;AAO7D;;;;;8DAAyC;EACrC,OAAO,EAAE,IAAI;;;AAIrB,0BAA0B;AAItB;;6EAA2C;EACvC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,SAAS;EACzB,cAAc,EAAE,KAAK;EACrB,WAAW,EAAE,gCAAgC",
+"sources": ["trx_addons-qw-extension.scss"],
+"names": [],
+"file": "trx_addons-qw-extension.css"
+}
