@@ -1,0 +1,15 @@
+{
+    "exclude": {
+        "files": [
+            "skin.jpg",
+        	"skin-setup.php",
+        	"skin-demo-importer.php",
+        	"css/__custom.css",
+        	"theme-specific/trx_addons-layouts.php"
+        ],
+        "folders": [
+        	"theme-specific/theme-about",
+        	"languages"
+        ]
+    }
+}

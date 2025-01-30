@@ -1,0 +1,17 @@
+@media (max-width: 1279px) {
+  .sc_testimonials_qw-date .sc_testimonials_item_content .sc_testimonials_item_date,
+  .sc_testimonials_qw-date .sc_testimonials_item_author .sc_testimonials_item_author_data .sc_testimonials_item_author_subtitle {
+    font-size: 15px;
+  }
+
+  .sc_testimonials_qw-big .sc_testimonials_item_author .sc_testimonials_item_author_data .sc_testimonials_item_author_subtitle {
+    font-size: 15px;
+  }
+
+  .sc_testimonials_qw-big .sc_testimonials_item_author .sc_testimonials_item_author_data .sc_testimonials_item_author_title,
+  .sc_testimonials_qw-date .sc_testimonials_item_author .sc_testimonials_item_author_data .sc_testimonials_item_author_title {
+    font-size: 17px;
+  }
+}
+
+/*# sourceMappingURL=trx_addons-qw-extension-responsive.css.map */
