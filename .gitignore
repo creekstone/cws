@@ -1,34 +1,35 @@
-# System files
+# WordPress specific files
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/cache/
+wp-content/backups/
+
+# WordPress core (if not on .gitignore already)
+wp-admin/
+wp-includes/
+
+# Configuration files
+*.log
+.htaccess
+
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
-# Editor directories and files
+# IDE files
 .idea/
 .vscode/
-*.swp
-*.swo
+*.sublime-workspace
+*.sublime-project
 
-# Dependency directories
+# Node modules and build files
 node_modules/
-vendor/
-
-# Environment files
-.env
-.env.local
-.env.*.local
-
-# Build output
-dist/
 build/
-out/
-
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Cache directories
-.cache/
-.npm/
-.eslintcache 
+dist/
