@@ -33,3 +33,7 @@ Thumbs.db
 node_modules/
 build/
 dist/
+
+# SiteGround specific
+wp-content/w3tc-cache/*
+wp-content/cache/supercache/*
