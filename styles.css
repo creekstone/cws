@@ -137,7 +137,7 @@ nav ul li a:hover {
     background-color: var(--color-light-gray);
 }
 
-.team-member img {
+.profile-image {
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -145,9 +145,28 @@ nav ul li a:hover {
     margin-bottom: 0.5rem;
 }
 
-.team-member h3, .team-member h4 {
-    margin: 0.5rem 0;
+.member-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.name-section {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.name-section h3,
+.name-section h4 {
+    margin: 0;
     color: var(--color-navy);
+}
+
+.member-details p {
+    margin: 0;
+    color: var(--color-dark-gray);
 }
 
 .team-member .accordion {
@@ -487,28 +506,81 @@ footer {
 .linkedin-link {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
-    padding: 2px;
-    border-radius: 2px;
-    background-color: #0072b1;
-    transition: opacity 0.3s;
+    padding: 0;
+    text-decoration: none;
+    background: none !important;
+    border: none;
 }
 
-.linkedin-link:hover {
-    opacity: 0.8;
+.linkedin-icon {
+    width: 14px;
+    height: 14px;
+    display: block;
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+    background: none !important;
+    border: none;
+}
+
+.linkedin-icon:hover {
+    opacity: 1;
+}
+
+.name-section {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.name-section h3,
+.name-section h4 {
+    margin: 0;
+    color: var(--color-navy);
+}
+
+.member-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.linkedin-link {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    padding: 2px;
 }
 
 .linkedin-icon {
     width: 16px;
     height: 16px;
-    margin: 5px 0;
-    transition: opacity 0.3s;
-    object-fit: contain;
-    background-color: #0072b1;
-    border-radius: 2px;
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
     vertical-align: middle;
 }
 
 .linkedin-icon:hover {
-    opacity: 0.8;
+    opacity: 1;
+}
+
+/* Team member LinkedIn icons */
+.team-member .linkedin-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    text-decoration: none;
+    background: none !important;
+    border: none;
+}
+
+.team-member .linkedin-icon {
+    width: 14px;
+    height: 14px;
+    display: block;
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+    background: none !important;
+    border: none;
 } 
