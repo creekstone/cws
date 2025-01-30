@@ -1,0 +1,272 @@
+[20-Sep-2023 23:12:21 UTC] wp_auto_login: trying to login user_id==1 loginusername=lightray@gmail.com to admin_url=http://bufordc.sg-host.com/wp-admin/
+[27-Sep-2023 13:47:27 UTC] wp_auto_login: trying to login user_id==1 loginusername=lightray@gmail.com to admin_url=http://bufordc.sg-host.com/wp-admin/
+[28-Sep-2023 16:49:16 UTC] wp_auto_login: trying to login user_id==1 loginusername=lightray@gmail.com to admin_url=http://bufordc.sg-host.com/wp-admin/
+[30-Sep-2023 19:39:26 UTC] wp_auto_login: trying to login user_id==1 loginusername=lightray@gmail.com to admin_url=http://bufordc.sg-host.com/wp-admin/
+[02-Oct-2023 23:15:39 UTC] wp_auto_login: trying to login user_id==1 loginusername=lightray@gmail.com to admin_url=http://bufordc.sg-host.com/wp-admin/
+[11-Oct-2023 15:51:14 UTC] wp_auto_login: trying to login user_id==1 loginusername=lightray@gmail.com to admin_url=http://bufordc.sg-host.com/wp-admin/
+[12-Oct-2023 00:20:23 UTC] wp_auto_login: trying to login user_id==1 loginusername=lightray@gmail.com to admin_url=http://creekstonecap.com/wp-admin/
+[14-Oct-2023 18:33:25 UTC] Cron reschedule event error for hook: monsterinsights_email_summaries_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"monsterinsights_email_summaries_weekly","args":[],"interval":604800}
+[18-Oct-2023 02:57:38 UTC] wp_auto_login: trying to login user_id==1 loginusername=lightray@gmail.com to admin_url=http://creekstonecap.com/wp-admin/
+[23-Oct-2023 23:54:25 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[23-Oct-2023 23:54:25 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[23-Oct-2023 23:54:25 UTC] Cron unschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[23-Oct-2023 23:54:25 UTC] Cron reschedule event error for hook: recovery_mode_clean_expired_keys, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[23-Oct-2023 23:54:25 UTC] Cron unschedule event error for hook: recovery_mode_clean_expired_keys, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[23-Oct-2023 23:54:25 UTC] Cron reschedule event error for hook: wp_https_detection, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[23-Oct-2023 23:54:25 UTC] Cron unschedule event error for hook: wp_https_detection, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[31-Oct-2023 18:33:07 UTC] wp_auto_login: trying to login user_id==1 loginusername=lightray@gmail.com to admin_url=http://creekstonecap.com/wp-admin/
+[21-Jan-2024 17:18:55 UTC] wp_auto_login: trying to login user_id==1 loginusername=lightray@gmail.com to admin_url=http://creekstonecap.com/wp-admin/
+[16-Mar-2024 21:18:03 UTC] wp_auto_login: trying to login user_id==1 loginusername=lightray@gmail.com to admin_url=http://creekstonecap.com/wp-admin/
+[21-Aug-2024 16:04:33 UTC] PHP Warning:  Undefined array key "host" in /home/customer/www/creekstonecap.com/public_html/wp-includes/canonical.php on line 716
+[21-Aug-2024 16:04:33 UTC] PHP Warning:  Undefined array key "host" in /home/customer/www/creekstonecap.com/public_html/wp-includes/canonical.php on line 727
+[21-Aug-2024 16:04:36 UTC] PHP Warning:  Undefined array key "host" in /home/customer/www/creekstonecap.com/public_html/wp-includes/canonical.php on line 716
+[21-Aug-2024 16:04:36 UTC] PHP Warning:  Undefined array key "host" in /home/customer/www/creekstonecap.com/public_html/wp-includes/canonical.php on line 727
+[21-Aug-2024 18:19:10 UTC] PHP Warning:  Undefined array key "host" in /home/customer/www/creekstonecap.com/public_html/wp-includes/canonical.php on line 716
+[21-Aug-2024 18:19:10 UTC] PHP Warning:  Undefined array key "host" in /home/customer/www/creekstonecap.com/public_html/wp-includes/canonical.php on line 727
+[21-Aug-2024 18:19:13 UTC] PHP Warning:  Undefined array key "host" in /home/customer/www/creekstonecap.com/public_html/wp-includes/canonical.php on line 716
+[21-Aug-2024 18:19:13 UTC] PHP Warning:  Undefined array key "host" in /home/customer/www/creekstonecap.com/public_html/wp-includes/canonical.php on line 727
+[22-Aug-2024 16:48:26 UTC] PHP Warning:  Undefined array key "host" in /home/customer/www/creekstonecap.com/public_html/wp-includes/canonical.php on line 716
+[22-Aug-2024 16:48:26 UTC] PHP Warning:  Undefined array key "host" in /home/customer/www/creekstonecap.com/public_html/wp-includes/canonical.php on line 727
+[22-Aug-2024 16:48:29 UTC] PHP Warning:  Undefined array key "host" in /home/customer/www/creekstonecap.com/public_html/wp-includes/canonical.php on line 716
+[22-Aug-2024 16:48:29 UTC] PHP Warning:  Undefined array key "host" in /home/customer/www/creekstonecap.com/public_html/wp-includes/canonical.php on line 727
+[23-Sep-2024 23:44:13 UTC] Failed to load textdomain google-analytics-for-wordpress
+[23-Sep-2024 23:44:13 UTC] Path searched: google-analytics-for-wordpress/languages
+[23-Sep-2024 23:56:01 UTC] Failed to load textdomain google-analytics-for-wordpress
+[23-Sep-2024 23:56:01 UTC] Path searched: google-analytics-for-wordpress/languages
+[23-Sep-2024 23:56:02 UTC] Failed to load textdomain google-analytics-for-wordpress
+[23-Sep-2024 23:56:02 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 00:11:56 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 00:11:56 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 00:11:56 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 00:11:56 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 00:40:55 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 00:40:55 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 01:03:50 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 01:03:50 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 01:03:50 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 01:03:50 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 01:03:54 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 01:03:54 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 01:03:54 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 01:03:54 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 01:48:06 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 01:48:06 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 01:48:07 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 01:48:07 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 03:22:34 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 03:22:34 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 03:22:34 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 03:22:34 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 03:22:43 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 03:22:43 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 03:45:58 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 03:45:58 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 03:45:59 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 03:45:59 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 03:46:00 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 03:46:00 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 03:46:01 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 03:46:01 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 04:36:49 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 04:36:49 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 05:19:01 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 05:19:01 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 05:19:02 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 05:19:02 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 05:42:48 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 05:42:48 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 05:42:48 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 05:42:48 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 06:23:05 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 06:23:05 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 06:23:05 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 06:23:05 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 06:23:06 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 06:23:06 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 07:02:22 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 07:02:22 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 07:02:22 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 07:02:22 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 07:13:33 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 07:13:33 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 07:13:33 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 07:13:33 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 08:37:46 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 08:37:46 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 09:46:45 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 09:46:45 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 09:46:45 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 09:46:45 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 11:16:06 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 11:16:06 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 11:16:06 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 11:16:06 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 11:27:50 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 11:27:50 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 11:27:51 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 11:27:51 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 11:46:23 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 11:46:23 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 11:46:23 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 11:46:23 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 12:01:05 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 12:01:05 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 12:01:05 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 12:01:05 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 12:27:52 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 12:27:52 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 12:27:52 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 12:27:52 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 12:28:03 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 12:28:03 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 12:28:03 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 12:28:03 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 12:28:03 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 12:28:03 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 12:28:03 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 12:28:03 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 12:28:31 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 12:28:31 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 12:29:50 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 12:29:50 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 12:50:05 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 12:50:05 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 12:50:06 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 12:50:06 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 13:32:28 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 13:32:28 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 13:32:28 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 13:32:28 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 13:42:57 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 13:42:57 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 13:42:57 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 13:42:57 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 16:32:38 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 16:32:38 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 17:54:17 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 17:54:17 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 17:54:18 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 17:54:18 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 18:12:24 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 18:12:24 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 18:12:24 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 18:12:24 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 18:48:06 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 18:48:06 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 18:48:06 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 18:48:06 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 18:48:06 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 18:48:06 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 18:48:06 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 18:48:06 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 18:48:06 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 18:48:06 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 18:48:06 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 18:48:06 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 18:48:06 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 18:48:06 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 18:48:06 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 18:48:06 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 18:48:06 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 18:48:06 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 18:48:06 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 18:48:06 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 18:48:07 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 18:48:07 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 18:48:07 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 18:48:07 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 18:48:07 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 18:48:07 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 18:48:07 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 18:48:07 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 19:03:00 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 19:03:00 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 19:03:00 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 19:03:00 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 19:33:48 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 19:33:48 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 19:33:48 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 19:33:48 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 20:04:30 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 20:04:30 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 20:04:30 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 20:04:30 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 20:08:47 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 20:08:47 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 20:08:47 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 20:08:47 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 20:08:50 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 20:08:50 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 20:28:18 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 20:28:18 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 20:28:19 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 20:28:19 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 20:28:19 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 20:28:19 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 20:28:26 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 20:28:26 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 20:45:54 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 20:45:54 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 21:34:05 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 21:34:05 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 21:34:05 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 21:34:05 UTC] Path searched: google-analytics-for-wordpress/languages
+[24-Sep-2024 21:34:09 UTC] Failed to load textdomain google-analytics-for-wordpress
+[24-Sep-2024 21:34:09 UTC] Path searched: google-analytics-for-wordpress/languages
+[25-Sep-2024 00:14:14 UTC] Failed to load textdomain google-analytics-for-wordpress
+[25-Sep-2024 00:14:14 UTC] Path searched: google-analytics-for-wordpress/languages
+[25-Sep-2024 00:14:15 UTC] Failed to load textdomain google-analytics-for-wordpress
+[25-Sep-2024 00:14:15 UTC] Path searched: google-analytics-for-wordpress/languages
+[25-Sep-2024 00:14:15 UTC] PHP Warning:  require_once(/home/customer/www/creekstonecap.com/public_html/wp-content/plugins/google-analytics-for-wordpress/includes/auth.php): Failed to open stream: No such file or directory in /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 325
+[25-Sep-2024 00:14:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/creekstonecap.com/public_html/wp-content/plugins/google-analytics-for-wordpress/includes/auth.php' (include_path='.:/usr/local/php82/pear') in /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php:325
+Stack trace:
+#0 /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/google-analytics-for-wordpress/includes/options.php(73): MonsterInsights_Lite->__get('auth')
+#1 /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/google-analytics-for-wordpress/includes/helpers.php(85): monsterinsights_get_v4_id()
+#2 /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/google-analytics-for-wordpress/includes/frontend/frontend.php(69): monsterinsights_track_user()
+#3 /home/customer/www/creekstonecap.com/public_html/wp-includes/class-wp-hook.php(324): monsterinsights_events_tracking('')
+#4 /home/customer/www/creekstonecap.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/customer/www/creekstonecap.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/customer/www/creekstonecap.com/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#7 /home/customer/www/creekstonecap.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#8 /home/customer/www/creekstonecap.com/public_html/index.php(17): require('/home/customer/...')
+#9 {main}
+  thrown in /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 325
+[10-Oct-2024 01:49:52 UTC] PHP Warning:  Attempt to read property "user_registered" on bool in /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/all-in-one-seo-pack/app/Common/Schema/Graphs/WebPage/ProfilePage.php on line 64
+[23-Oct-2024 03:10:00 UTC] wp_auto_login: trying to login user_id==1 loginusername=lightray@gmail.com to admin_url=http://creekstonecap.com/wp-admin/
+[29-Oct-2024 16:10:19 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[13-Nov-2024 15:26:44 UTC] PHP Warning:  require_once(/home/customer/www/creekstonecap.com/public_html/wp-content/plugins/google-analytics-for-wordpress/includes/auth.php): Failed to open stream: No such file or directory in /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 325
+[13-Nov-2024 15:26:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/customer/www/creekstonecap.com/public_html/wp-content/plugins/google-analytics-for-wordpress/includes/auth.php' (include_path='.:/usr/local/php82/pear') in /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php:325
+Stack trace:
+#0 /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/google-analytics-for-wordpress/includes/options.php(73): MonsterInsights_Lite->__get('auth')
+#1 /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/google-analytics-for-wordpress/includes/helpers.php(85): monsterinsights_get_v4_id()
+#2 /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/google-analytics-for-wordpress/includes/frontend/frontend.php(69): monsterinsights_track_user()
+#3 /home/customer/www/creekstonecap.com/public_html/wp-includes/class-wp-hook.php(324): monsterinsights_events_tracking('')
+#4 /home/customer/www/creekstonecap.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /home/customer/www/creekstonecap.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /home/customer/www/creekstonecap.com/public_html/wp-includes/template-loader.php(13): do_action('template_redire...')
+#7 /home/customer/www/creekstonecap.com/public_html/wp-blog-header.php(19): require_once('/home/customer/...')
+#8 /home/customer/www/creekstonecap.com/public_html/index.php(17): require('/home/customer/...')
+#9 {main}
+  thrown in /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 325
+[02-Jan-2025 22:38:43 UTC] PHP Warning:  preg_match(): Allocation of JIT memory failed, PCRE JIT will be disabled. This is likely caused by security restrictions. Either grant PHP permission to allocate executable memory, or set pcre.jit=0 in /home/customer/www/creekstonecap.com/public_html/wp-includes/load.php on line 46
+[06-Jan-2025 21:02:04 UTC] wp_auto_login: trying to login user_id==1 loginusername=lightray@gmail.com to admin_url=http://creekstonecap.com/wp-admin/
+[12-Jan-2025 01:03:01 UTC] wp_auto_login: trying to login user_id==1 loginusername=lightray@gmail.com to admin_url=http://creekstonecap.com/wp-admin/
+[13-Jan-2025 02:30:07 UTC] PHP Warning:  Attempt to read property "seoBoost" on null in /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/all-in-one-seo-pack/app/Common/WritingAssistant/SeoBoost/Service.php on line 174
+[13-Jan-2025 02:30:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getAccessToken() on null in /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/all-in-one-seo-pack/app/Common/WritingAssistant/SeoBoost/Service.php:174
+Stack trace:
+#0 /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/all-in-one-seo-pack/app/Common/WritingAssistant/SeoBoost/Service.php(112): AIOSEO\Plugin\Common\WritingAssistant\SeoBoost\Service->doRequest('waGetUserOption...')
+#1 /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/all-in-one-seo-pack/app/Common/WritingAssistant/SeoBoost/SeoBoost.php(159): AIOSEO\Plugin\Common\WritingAssistant\SeoBoost\Service->getUserOptions()
+#2 /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/all-in-one-seo-pack/app/Common/WritingAssistant/SeoBoost/SeoBoost.php(65): AIOSEO\Plugin\Common\WritingAssistant\SeoBoost\SeoBoost->refreshUserOptions()
+#3 /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/all-in-one-seo-pack/app/Common/WritingAssistant/WritingAssistant.php(42): AIOSEO\Plugin\Common\WritingAssistant\SeoBoost\SeoBoost->__construct()
+#4 /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/all-in-one-seo-pack/app/AIOSEO.php(327): AIOSEO\Plugin\Common\WritingAssistant\WritingAssistant->__construct()
+#5 /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/all-in-one-seo-pack/app/AIOSEO.php(97): AIOSEO\Plugin\AIOSEO->load()
+#6 /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/all-in-one-seo-pack/app/AIOSEO.php(76): AIOSEO\Plugin\AIOSEO->init()
+#7 /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/all-in-one-seo-pack/app/AIOSEO.php(389): AIOSEO\Plugin\AIOSEO::instance()
+#8 /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/all-in-one-seo-pack/all_in_one_seo_pack.php(98): aioseo()
+#9 /home/customer/www/creekstonecap.com/public_html/wp-settings.php(526): include_once('/home/customer/...')
+#10 /home/customer/www/creekstonecap.com/public_html/wp-config.php(103): require_once('/home/customer/...')
+#11 /home/customer/www/creekstonecap.com/public_html/wp-load.php(50): require_once('/home/customer/...')
+#12 /home/customer/www/creekstonecap.com/public_html/wp-blog-header.php(13): require_once('/home/customer/...')
+#13 /home/customer/www/creekstonecap.com/public_html/index.php(17): require('/home/customer/...')
+#14 {main}
+  thrown in /home/customer/www/creekstonecap.com/public_html/wp-content/plugins/all-in-one-seo-pack/app/Common/WritingAssistant/SeoBoost/Service.php on line 174

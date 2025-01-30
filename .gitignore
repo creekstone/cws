@@ -5,6 +5,8 @@ wp-content/upgrade/
 wp-content/backup-db/
 wp-content/cache/
 wp-content/backups/
+wp-content/w3tc-cache/
+wp-content/cache/supercache/
 
 # WordPress core (if not on .gitignore already)
 wp-admin/
@@ -33,7 +35,3 @@ Thumbs.db
 node_modules/
 build/
 dist/
-
-# SiteGround specific
-wp-content/w3tc-cache/*
-wp-content/cache/supercache/*
