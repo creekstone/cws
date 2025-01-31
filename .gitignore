@@ -1,20 +1,34 @@
-# WordPress specific files
+# WordPress config
 wp-config.php
-wp-content/uploads/
-wp-content/upgrade/
-wp-content/backup-db/
-wp-content/cache/
-wp-content/backups/
-wp-content/w3tc-cache/
-wp-content/cache/supercache/
 
-# WordPress core (if not on .gitignore already)
-wp-admin/
-wp-includes/
+# WordPress core (if not managing with Git)
+/wp-admin/
+/wp-includes/
 
-# Configuration files
+# WordPress content that may contain sensitive info
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/backup-db/
+/wp-content/backups/
+/wp-content/cache/
+/wp-content/advanced-cache.php
+/wp-content/object-cache.php
+
+# Various WordPress system files
 *.log
 .htaccess
+sitemap.xml
+sitemap.xml.gz
+
+# Development files
+*.bak
+*.swp
+*~
+
+# Environment specific files
+.env
+*.env
+.env.*
 
 # OS generated files
 .DS_Store
@@ -35,3 +49,4 @@ Thumbs.db
 node_modules/
 build/
 dist/
+

@@ -1,21 +1,11 @@
 <?php
 /**
- * The base configuration for WordPress
+ * WordPress Sample Configuration File
  *
- * The wp-config.php creation script uses this file during the installation.
- * You don't have to use the website, you can copy this file to "wp-config.php"
- * and fill in the values.
- *
- * This file contains the following configurations:
- *
- * * Database settings
- * * Secret keys
- * * Database table prefix
- * * ABSPATH
- *
- * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/
- *
- * @package WordPress
+ * This is a template for wp-config.php. You will need to:
+ * 1. Make a copy of this file and name it wp-config.php
+ * 2. Fill in your database credentials and authentication keys
+ * 3. Get your authentication keys from https://api.wordpress.org/secret-key/1.1/salt/
  */
 
 // ** Database settings - You can get this info from your web host ** //
