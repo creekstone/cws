@@ -68,4 +68,40 @@ document.addEventListener('DOMContentLoaded', () => {
         currentSlide = (currentSlide + 1) % totalSlides;
         updateCarousel();
     }, 5000);
+
+    // Form submission handling
+    const leadCaptureForm = document.getElementById('leadCaptureForm');
+    const formMessage = document.getElementById('formMessage');
+
+    if (leadCaptureForm) {
+        leadCaptureForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            // Clear previous messages
+            formMessage.className = 'form-message';
+            formMessage.style.display = 'none';
+
+            try {
+                const formData = new FormData(leadCaptureForm);
+                const response = await fetch(leadCaptureForm.action, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const result = await response.json();
+                formMessage.textContent = result.message;
+                formMessage.classList.add(result.success ? 'success' : 'error');
+                formMessage.style.display = 'block';
+
+                if (result.success) {
+                    leadCaptureForm.reset();
+                }
+            } catch (error) {
+                console.error('Form submission error:', error);
+                formMessage.textContent = 'An error occurred. Please try again later.';
+                formMessage.classList.add('error');
+                formMessage.style.display = 'block';
+            }
+        });
+    }
 }); 

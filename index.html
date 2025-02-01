@@ -291,15 +291,20 @@
     </div>
 
     <div id="subscribe" class="main-content">
-        <h2>Subscribe to News</h2>
+        <h2>Stay Updated</h2>
         <div class="subscribe-form">
-            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-            <script>
-              hbspt.forms.create({
-                portalId: "44268229",
-                formId: "2cdedf6a-a153-41a4-b5a1-07d1375eb2d6"
-              });
-            </script>
+            <form id="leadCaptureForm" action="process_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit" class="submit-btn">Subscribe</button>
+            </form>
+            <div id="formMessage" class="form-message"></div>
         </div>
     </div>
 
