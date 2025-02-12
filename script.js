@@ -72,35 +72,46 @@ document.addEventListener('DOMContentLoaded', () => {
     // Form submission handling
     const leadCaptureForm = document.getElementById('leadCaptureForm');
     const formMessage = document.getElementById('formMessage');
+    const submitButton = document.querySelector('.submit-btn');
 
     if (leadCaptureForm) {
         leadCaptureForm.addEventListener('submit', async (e) => {
             e.preventDefault();
 
-            // Clear previous messages
-            formMessage.className = 'form-message';
-            formMessage.style.display = 'none';
+            // Disable the submit button and show loading state
+            submitButton.disabled = true;
+            submitButton.textContent = 'Sending...';
+
+            // Simulate network delay for local testing
+            await new Promise(resolve => setTimeout(resolve, 1000));
 
             try {
+                // For local testing, just simulate a successful submission
                 const formData = new FormData(leadCaptureForm);
-                const response = await fetch(leadCaptureForm.action, {
-                    method: 'POST',
-                    body: formData
-                });
-
-                const result = await response.json();
-                formMessage.textContent = result.message;
-                formMessage.classList.add(result.success ? 'success' : 'error');
-                formMessage.style.display = 'block';
-
-                if (result.success) {
-                    leadCaptureForm.reset();
-                }
+                const name = formData.get('name');
+                const email = formData.get('email');
+                
+                console.log('Form submitted with:', { name, email });
+                
+                // Success state
+                submitButton.textContent = 'Thank you!';
+                submitButton.classList.add('success');
+                leadCaptureForm.reset();
+                
+                // Optional: Reset button after 5 seconds
+                setTimeout(() => {
+                    submitButton.textContent = 'Subscribe';
+                    submitButton.classList.remove('success');
+                    submitButton.disabled = false;
+                }, 5000);
+                
             } catch (error) {
                 console.error('Form submission error:', error);
                 formMessage.textContent = 'An error occurred. Please try again later.';
                 formMessage.classList.add('error');
                 formMessage.style.display = 'block';
+                submitButton.textContent = 'Subscribe';
+                submitButton.disabled = false;
             }
         });
     }
