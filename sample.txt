@@ -1,0 +1,361 @@
+<style>
+  :root {
+    --color-navy: #08294B;
+    --color-teal: #0D5E70;
+    --color-light-gray: #F5F5F5;
+    --color-dark-gray: #444444;
+    --color-white: #FFFFFF;
+  }
+
+  body {
+    font-family: "Merriweather", serif;
+    color: var(--color-dark-gray);
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    color: var(--color-navy);
+  }
+
+  header {
+    background-color: var(--color-navy);
+    color: var(--color-light-gray);
+    padding: 20px 40px;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  header p {
+    margin: 10px 0 0;
+    font-size: 1rem;
+  }
+
+  nav {
+    background-color: var(--color-teal);
+    color: var(--color-white);
+    padding: 10px 0;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li {
+    margin: 0 15px;
+  }
+
+  nav ul li a {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .main-content {
+    padding: 40px;
+    background-color: var(--color-light-gray);
+    color: var(--color-dark-gray);
+  }
+
+  .main-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .team-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+  }
+
+  .team-member {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-dark-gray);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+
+  .team-member h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+
+  .team-member a {
+    color: var(--color-teal);
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+  }
+
+  .accordion {
+    margin-top: 15px;
+    text-align: left;
+  }
+
+  .accordion button {
+    background-color: var(--color-light-gray);
+    border: none;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .accordion button:hover {
+    background-color: var(--color-dark-gray);
+    color: var(--color-white);
+  }
+
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: var(--color-white);
+    border-top: 1px solid var(--color-dark-gray);
+  }
+
+  .accordion button.active + .accordion-content {
+    display: block;
+  }
+</style>
+
+<header>
+  <h1>Creekstone Capital</h1>
+  <p>Your trusted financial partner</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#team">Our Team</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<div id="about" class="main-content">
+  <h2>About Us</h2>
+  <p>Civilization advances in discontinuous jumps, propelled forward by innovation.</p>
+  <p>Capital combined with courageous ideas are the fuel and catalyst that ignite revolutions in creating a better world.</p>
+  <p>We are committed to sectors that drive the future. Our deep expertise in finance, technology, aerospace, logistics, and biotechnology has equipped us with the insights to navigate the complexities and opportunities of rapid technological advancement.</p>
+  <p>These are not isolated sectors but interconnected ecosystems where advancements in one catalyze breakthroughs in another. More recently, generative artificial intelligence and quantum computing are force multipliers across industries.</p>
+  <p>Creekstone Capital’s purpose is to connect visionary companies and sophisticated investors, accelerating the betterment of humanity.</p>
+</div>
+
+<div id="team" class="main-content">
+  <h2>Our Team</h2>
+  <div class="team-section">
+    <!-- Buford Ray Conley -->
+    <div class="team-member">
+      <img src="placeholder.jpg" alt="Buford Ray Conley">
+      <h3>Buford Ray Conley</h3>
+      <p>CEO</p>
+      <a href="#">LinkedIn</a>
+      <div class="accordion">
+        <button>View Bio</button>
+        <div class="accordion-content">
+          <p>Buford Ray Conley has been leading Creekstone Capital as CEO, bringing decades of expertise in financial management and advisory.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Zane Browning -->
+    <div class="team-member">
+      <img src="placeholder.jpg" alt="Zane Browning">
+      <h3>Zane Browning</h3>
+      <a href="#">LinkedIn</a>
+      <div class="accordion">
+        <button>View Bio</button>
+        <div class="accordion-content">
+          <p>Zane Browning specializes in investment strategies and risk management, providing innovative solutions to our clients.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- William Chase Sheffield -->
+    <div class="team-member">
+      <img src="placeholder.jpg" alt="William Chase Sheffield">
+      <h3>William Chase Sheffield</h3>
+      <a href="#">LinkedIn</a>
+      <div class="accordion">
+        <button>View Bio</button>
+        <div class="accordion-content">
+          <p>William Chase Sheffield focuses on client relations and strategic planning, ensuring long-term success for Creekstone Capital's clients.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- William Sims Wallace -->
+    <div class="team-member">
+      <img src="placeholder.jpg" alt="William Sims Wallace">
+      <h3>William Sims Wallace</h3>
+      <a href="#">LinkedIn</a>
+      <div class="accordion">
+        <button>View Bio</button>
+        <div class="accordion-content">
+          <p>William Sims Wallace has a deep understanding of capital markets and brings analytical expertise to the team.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Luke Griffin -->
+    <div class="team-member">
+      <img src="placeholder.jpg" alt="Luke Griffin">
+      <h3>Luke Griffin</h3>
+      <a href="#">LinkedIn</a>
+      <div class="accordion">
+        <button>View Bio</button>
+        <div class="accordion-content">
+          <p>Luke Griffin excels in portfolio management, tailoring investment strategies to meet unique client needs.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Casey Nickels -->
+    <div class="team-member">
+      <img src="placeholder.jpg" alt="Casey Nickels">
+      <h3>Casey Nickels</h3>
+      <a href="#">LinkedIn</a>
+      <div class="accordion">
+        <button>View Bio</button>
+        <div class="accordion-content">
+          <p>Casey Nickels specializes in alternative investments, driving innovative financial solutions for the firm.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cole Higbie -->
+    <div class="team-member">
+      <img src="placeholder.jpg" alt="Cole Higbie">
+      <h3>Cole Higbie</h3>
+      <a href="#">LinkedIn</a>
+      <div class="accordion">
+        <button>View Bio</button>
+        <div class="accordion-content">
+          <p>Cole Higbie has expertise in private equity and venture capital, delivering high-value opportunities to our clients.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chris Rollins -->
+    <div class="team-member">
+      <img src="placeholder.jpg" alt="Chris Rollins">
+      <h3>Chris Rollins</h3>
+      <a href="#">LinkedIn</a>
+      <div class="accordion">
+        <button>View Bio</button>
+        <div class="accordion-content">
+          <p>Chris Rollins focuses on risk analysis and compliance, ensuring operational excellence for Creekstone Capital.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- John Hipsher -->
+    <div class="team-member">
+      <img src="placeholder.jpg" alt="John Hipsher">
+      <h3>John Hipsher</h3>
+      <a href="#">LinkedIn</a>
+      <div class="accordion">
+        <button>View Bio</button>
+        <div class="accordion-content">
+          <p>John Hipsher specializes in strategic partnerships and business development, driving growth for Creekstone Capital.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <!-- Primary Links Section -->
+  <div class="primary-links">
+    <div>
+      <ul>
+        <li><a href="#">Disclosures</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li><a href="#">News and Media</a></li>
+        <li><a href="#">Client Relationship Summary</a></li>
+      </ul>
+    </div>
+    <div>
+      <p>Follow us to stay up to date:</p>
+      <a href="#" style="margin-right: 10px;">Facebook</a>
+      <a href="#" style="margin-right: 10px;">X</a>
+      <a href="#" style="margin-right: 10px;">LinkedIn</a>
+      <a href="#">YouTube</a>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Secondary Links Section -->
+  <div class="secondary-links">
+    <a href="#">Feedback</a> |
+    <a href="#">Privacy and Security Center</a> |
+    <a href="#">Terms of Use</a>
+  </div>
+
+  <hr>
+
+  <!-- Legal and BrokerCheck Section -->
+  <div class="legal-section">
+    <div>
+      <p>
+        Copyright &copy; 2024 Creekstone Capital. All rights reserved. Member <a href="https://www.sipc.org">
+          <img src="https://www.sipc.org/assets/img/sipc-logo-member.png" alt="SIPC Member">
+        </a>.
+      </p>
+      <p style="font-size: 12px; line-height: 1.5;">
+        This site is designed for U.S. residents only. The services offered within this site are available exclusively through our U.S.
+        financial advisors. Creekstone Capital' U.S. financial advisors may only conduct business with residents of the states for which
+        they are properly registered. Please note that not all of the investments and services mentioned are available in every state.
+      </p>
+    </div>
+    <div style="text-align: center;">
+      <a href="https://brokercheck.finra.org/firm/summary/325715">
+        <img src="brokercheck-logo.png" alt="BrokerCheck by FINRA" style="max-width: 150px;">
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll(".accordion button").forEach(button => {
+    button.addEventListener("click", () => {
+      button.classList.toggle("active");
+      const content = button.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  });
+</script>

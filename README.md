@@ -61,4 +61,4 @@ The website is compatible with all modern browsers:
 
 ## License
 
-This project is proprietary and confidential. All rights reserved by Creekstone Capital. 
+This project is proprietary and confidential. All rights reserved by Creekstone Capital.
