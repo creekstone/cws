@@ -11,7 +11,7 @@ Creekstone Capital's website serves as the digital face of our firm, connecting 
 ### b. Team Section with Accordion Grouping
 - Highlight Buford Ray Conley, CEO, at the top.
 - Group team members by location using accordion-style sections for better management.
-  - **Nashville/Franklin**: Zane Browning, William Sims Wallace, Luke Griffin.
+  - **Nashville/Franklin**: Zane Browning, William Sims Wallace.
   - **Atlanta**: Chris Rollins, Cole Higbie, Casey Nickels.
   - **Eastern Tennessee**: Chase Sheffield.
   - **North Carolina**: John Hipsher.
@@ -22,7 +22,7 @@ Creekstone Capital's website serves as the digital face of our firm, connecting 
   - A collapsible bio section.
 
 ### c. About Section
-- Provide an engaging introduction to Creekstone Capital’s mission, expertise, and purpose.
+- Provide an engaging introduction to Creekstone Capital's mission, expertise, and purpose.
 
 ### d. Footer
 - Include links to disclosures, careers, news, and media.

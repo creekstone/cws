@@ -163,7 +163,7 @@
   <p>Capital combined with courageous ideas are the fuel and catalyst that ignite revolutions in creating a better world.</p>
   <p>We are committed to sectors that drive the future. Our deep expertise in finance, technology, aerospace, logistics, and biotechnology has equipped us with the insights to navigate the complexities and opportunities of rapid technological advancement.</p>
   <p>These are not isolated sectors but interconnected ecosystems where advancements in one catalyze breakthroughs in another. More recently, generative artificial intelligence and quantum computing are force multipliers across industries.</p>
-  <p>Creekstone Capital’s purpose is to connect visionary companies and sophisticated investors, accelerating the betterment of humanity.</p>
+  <p>Creekstone Capital's purpose is to connect visionary companies and sophisticated investors, accelerating the betterment of humanity.</p>
 </div>
 
 <div id="team" class="main-content">
@@ -209,29 +209,12 @@
       </div>
     </div>
 
-    <!-- William Sims Wallace -->
+    <!-- William "Sims" Wallace -->
     <div class="team-member">
       <img src="placeholder.jpg" alt="William Sims Wallace">
       <h3>William Sims Wallace</h3>
-      <a href="#">LinkedIn</a>
-      <div class="accordion">
-        <button>View Bio</button>
-        <div class="accordion-content">
-          <p>William Sims Wallace has a deep understanding of capital markets and brings analytical expertise to the team.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Luke Griffin -->
-    <div class="team-member">
-      <img src="placeholder.jpg" alt="Luke Griffin">
-      <h3>Luke Griffin</h3>
-      <a href="#">LinkedIn</a>
-      <div class="accordion">
-        <button>View Bio</button>
-        <div class="accordion-content">
-          <p>Luke Griffin excels in portfolio management, tailoring investment strategies to meet unique client needs.</p>
-        </div>
+      <div class="bio">
+        <p>William "Sims" Wallace excels in financial modeling, risk assessment, and capital structuring for major transactions.</p>
       </div>
     </div>
 
