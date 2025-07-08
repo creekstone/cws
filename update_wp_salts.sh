@@ -22,3 +22,4 @@ ssh -p 18765 u1627-cfgvmwjqr72b@gtxm1123.siteground.biz "cd /home/customer/www/c
 
 # Clean up local temporary file
 rm wp-salts.txt 
+ 
