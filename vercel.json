@@ -1,9 +1,10 @@
 {
     "routes": [
       {
-        "src": "/",
+        "src": "^/$",
         "has": [{ "type": "host", "value": "cra.creekstonecap.com" }],
-        "dest": "/cra.html"
+        "status": 308,
+        "headers": { "Location": "/cra" }
       },
       { "src": "/(.*)", "dest": "/$1" }
     ]
