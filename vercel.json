@@ -1,0 +1,19 @@
+{
+    "rewrites": [
+      {
+        "source": "/",
+        "has": [
+          {
+            "type": "host",
+            "value": "cra.creekstonecap.com"
+          }
+        ],
+        "destination": "/cra.html"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/$1"
+      }
+    ]
+  }
+  
