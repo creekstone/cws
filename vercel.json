@@ -1,19 +1,11 @@
 {
-    "rewrites": [
+    "routes": [
       {
-        "source": "/",
-        "has": [
-          {
-            "type": "host",
-            "value": "cra.creekstonecap.com"
-          }
-        ],
-        "destination": "/cra.html"
+        "src": "/",
+        "has": [{ "type": "host", "value": "cra.creekstonecap.com" }],
+        "dest": "/cra.html"
       },
-      {
-        "source": "/(.*)",
-        "destination": "/$1"
-      }
+      { "src": "/(.*)", "dest": "/$1" }
     ]
   }
   
