@@ -4,7 +4,9 @@
         "src": "^/$",
         "has": [{ "type": "host", "value": "cra.creekstonecap.com" }],
         "status": 308,
-        "headers": { "Location": "/cra" }
+        "headers": {
+          "Location": "https://creekstonecap.com/cra"
+        }
       },
       { "src": "/(.*)", "dest": "/$1" }
     ]
