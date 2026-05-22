@@ -231,19 +231,6 @@
       </div>
     </div>
 
-    <!-- Cole Higbie -->
-    <div class="team-member">
-      <img src="placeholder.jpg" alt="Cole Higbie">
-      <h3>Cole Higbie</h3>
-      <a href="#">LinkedIn</a>
-      <div class="accordion">
-        <button>View Bio</button>
-        <div class="accordion-content">
-          <p>Cole Higbie has expertise in private equity and venture capital, delivering high-value opportunities to our clients.</p>
-        </div>
-      </div>
-    </div>
-
     <!-- Chris Rollins -->
     <div class="team-member">
       <img src="placeholder.jpg" alt="Chris Rollins">
@@ -257,18 +244,6 @@
       </div>
     </div>
 
-    <!-- John Hipsher -->
-    <div class="team-member">
-      <img src="placeholder.jpg" alt="John Hipsher">
-      <h3>John Hipsher</h3>
-      <a href="#">LinkedIn</a>
-      <div class="accordion">
-        <button>View Bio</button>
-        <div class="accordion-content">
-          <p>John Hipsher specializes in strategic partnerships and business development, driving growth for Creekstone Capital.</p>
-        </div>
-      </div>
-    </div>
   </div>
 </div>
 
